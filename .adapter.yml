@@ -1,0 +1,9 @@
+name: FIL/WEI
+description: Cryptocompare FIL/WEI price
+node_identifier: wuwei_fil_wei
+platforms:
+  - AWS Lambda
+data_sources:
+  - name: hicetnunc2000
+    url: https://58ln53fooe.execute-api.us-east-1.amazonaws.com/dev/wuwei_fil_wei
+parameters:

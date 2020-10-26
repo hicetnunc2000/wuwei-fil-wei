@@ -1,0 +1,6 @@
+.env
+.package-lock.json
+.serverless
+node_modules
+tezosOperator.js
+web3Operator.js
