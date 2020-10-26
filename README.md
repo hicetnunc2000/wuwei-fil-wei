@@ -1,39 +1,33 @@
-random-bridge-ea
+wuwei-fil-wei
 
-chainlink external adapter which gets randomness from [drand.love](https://drand.love) and inserts on Tezos Blockchain every 30 seconds https://better-call.dev/carthagenet/KT1NH3FkrYZhM93BJtSSLfYwPKcqpiyjgVmE/operations
+chainlink external adapter for a FIL/WEI data provider
+
+
 
 ``` 
 {
 	"initiators": [
 		{
-			"type": "cron",
+			"type": "runlog",
 			"params": {
-				"schedule": "CRON_TZ=UTC */30 * * * * *"
+				"address": "0x2Bd355065fE6b4Df4CE7c12f15b9a9b2a8392037"
 			}
 		}
 	],
 	"tasks": [
 		{
-			"type": "random_bridge",
-			"confirmations": null,
-			"params": {}
+			"type": "wuwei_fil_wei"
+		},
+		{
+			"type": "ethint256"
+		},
+		{
+			"type": "ethtx"
 		}
-	],
-	"startAt": null,
-	"endAt": null
+	]
 }
 ```
-.env
-```
-TEZOS_NODE=
-CONSEIL_SERVER=
-API_KEY=
-KT_ADDRESS=
-NETWORK=
-SECRET_KEY=
-LAMBDA=true
-```
-you can generate your api keys on [nautilus cloud](https://nautilus.cloud)
+
 ```
 MIT License
 ```
