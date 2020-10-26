@@ -2,7 +2,7 @@ wuwei-fil-wei
 
 chainlink external adapter for a FIL/WEI data provider
 
-https://ipfs.io/ipfs/QmewgAfoQXxbAkMXbuLnK4CxduT7t9dSg3XVzcKLmMYyvP mainnet solidit sample: 0x272Bb499E0C9af01b115DBCe08d0A71B4dd79B59
+https://ipfs.io/ipfs/QmewgAfoQXxbAkMXbuLnK4CxduT7t9dSg3XVzcKLmMYyvP mainnet solidity sample: 0x272Bb499E0C9af01b115DBCe08d0A71B4dd79B59
 
 ``` 
 {
