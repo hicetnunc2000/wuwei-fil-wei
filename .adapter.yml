@@ -1,5 +1,5 @@
-name: wuwei_fil_wei
-description: Cryptocompare FIL/WEI price
+name: FIL/WEI
+description: Cryptocompare FIL ETH(WEI) price
 node_identifier: wuwei_fil_wei
 platforms:
   - AWS Lambda
