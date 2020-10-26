@@ -1,6 +1,6 @@
 name: FIL-WEI price
-description: Cryptocompare FIL WEI price
-node_identifier: wuwei_fil_wei
+description: cryptocompare FIL WEI price
+node_identifier: wuwei
 platforms:
   - AWS Lambda
 data_sources:
